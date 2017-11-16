@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_house"
+            android:title="Home" />
+        <item
+            android:id="@+id/elearn"
+            android:icon="@drawable/ic_ereader"
+            android:title="Learn" />
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/ic_youtube"
+            android:title="Video" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_ecologism"
+            android:title="Aboutus" />
+    </group>
+
+
+</menu>

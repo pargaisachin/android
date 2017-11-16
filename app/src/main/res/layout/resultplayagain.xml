@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/sadtext"
+        android:text="Sorry that wasn't Correct....No worrys u can play again"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/sadface"
+        android:layout_below="@+id/sadtext"
+        android:background="@mipmap/sad"
+        android:layout_centerHorizontal="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/sadface"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center"
+       android:id="@+id/score2" />
+
+    <Button
+        android:layout_below="@+id/score2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY AGAIN"
+        android:background="#FF5252"
+        android:id="@+id/platygaianbutton"
+        android:onClick="PlayAgain"
+        />
+</RelativeLayout>

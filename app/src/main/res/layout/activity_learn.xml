@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sachin.quizapp.Learn">
+
+
+
+    <Button
+
+        android:id="@+id/learn1"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:text="Indian Prime minister"
+        android:textSize="24sp"
+        android:background="@drawable/backgroundbutton" />
+
+    <Button
+        android:id="@+id/learn2"
+        android:layout_below="@+id/learn1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:text="President"
+        android:textSize="24sp"
+        android:background="@drawable/backgroundbutton" />
+    <Button
+        android:id="@+id/learn3"
+        android:layout_below="@id/learn2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:text="State and Capital"
+        android:textSize="24sp"
+        android:background="@drawable/backgroundbutton" />
+    <Button
+        android:id="@+id/learn4"
+        android:layout_below="@+id/learn3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:text="Main River"
+        android:textSize="24sp"
+        android:background="@drawable/backgroundbutton" />
+
+
+
+</RelativeLayout>
