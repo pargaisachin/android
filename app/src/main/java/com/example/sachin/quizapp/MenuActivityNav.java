@@ -40,7 +40,6 @@ public class MenuActivityNav extends AppCompatActivity
             public void onClick(View view) {
                 Intent i=new Intent(getApplicationContext(),StartQuiz.class);
                 startActivity(i);
-                finish();
 
 
             }
@@ -53,7 +52,7 @@ public class MenuActivityNav extends AppCompatActivity
                 Intent i=new Intent(getApplicationContext(),StartQuizIn.class);
                 startActivity(i);
 
-                finish();
+
             }
         });
 
@@ -63,7 +62,7 @@ public class MenuActivityNav extends AppCompatActivity
                 Intent i=new Intent(getApplicationContext(),StartHistory.class);
                 startActivity(i);
 
-                finish();
+
             }
         });
         political.setOnClickListener(new View.OnClickListener() {
@@ -72,7 +71,6 @@ public class MenuActivityNav extends AppCompatActivity
                 Intent i=new Intent(getApplicationContext(),StartPolitical.class);
                 startActivity(i);
 
-                finish();
 
             }
         });
